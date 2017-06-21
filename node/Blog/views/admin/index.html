@@ -1,0 +1,9 @@
+{% extends 'layout.html' %}
+<!-- 实现对模板的继承 -->
+
+{% block main %}
+<div class="jumbotron">
+	<h1>hello,{{userInfo.username}}</h1>
+	<p>欢迎进入我的博客后台管理系统</p>
+</div>
+{% endblock %}

@@ -1,0 +1,17 @@
+{
+  "name": "actice",
+  "version": "1.0.0",
+  "description": "index.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine-react-helpers": "^0.2.2",
+    "react": "^15.5.4",
+    "react-addons": "^0.9.1-deprecated",
+    "reactify": "^1.1.1"
+  }
+}

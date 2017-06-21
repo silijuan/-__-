@@ -1,0 +1,112 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\SoftwareInstallation\\node\\node.exe',
+1 verbose cli   'D:\\SoftwareInstallation\\node\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'react/addons' ]
+2 info using npm@2.15.1
+3 info using node@v4.4.4
+4 verbose install initial load of C:\Users\dell\Desktop\xs@slj\项目实例\个人项目实战\react\package.json
+5 warn package.json actice@1.0.0 No repository field.
+6 warn package.json actice@1.0.0 No README data
+7 verbose installManyTop reading scoped package data from C:\Users\dell\Desktop\xs@slj\项目实例\个人项目实战\react\node_modules\jasmine\package.json
+8 verbose installManyTop reading scoped package data from C:\Users\dell\Desktop\xs@slj\项目实例\个人项目实战\react\node_modules\jasmine-react-helpers\package.json
+9 verbose installManyTop reading scoped package data from C:\Users\dell\Desktop\xs@slj\项目实例\个人项目实战\react\node_modules\react\package.json
+10 verbose installManyTop reading scoped package data from C:\Users\dell\Desktop\xs@slj\项目实例\个人项目实战\react\node_modules\react-addons\package.json
+11 verbose installManyTop reading scoped package data from C:\Users\dell\Desktop\xs@slj\项目实例\个人项目实战\react\node_modules\reactify\package.json
+12 info package.json react-addons@0.9.1-deprecated No license field.
+13 info package.json jasmine-react-helpers@0.2.2 No license field.
+14 verbose readDependencies loading dependencies from C:\Users\dell\Desktop\xs@slj\项目实例\个人项目实战\react\package.json
+15 silly cache add args [ 'react/addons', null ]
+16 verbose cache add spec react/addons
+17 silly cache add parsed spec Result {
+17 silly cache add   raw: 'react/addons',
+17 silly cache add   scope: null,
+17 silly cache add   name: null,
+17 silly cache add   rawSpec: 'react/addons',
+17 silly cache add   spec: 'github:react/addons',
+17 silly cache add   type: 'hosted',
+17 silly cache add   hosted:
+17 silly cache add    { type: 'github',
+17 silly cache add      ssh: 'git@github.com:react/addons.git',
+17 silly cache add      sshUrl: 'git+ssh://git@github.com/react/addons.git',
+17 silly cache add      httpsUrl: 'git+https://github.com/react/addons.git',
+17 silly cache add      gitUrl: 'git://github.com/react/addons.git',
+17 silly cache add      shortcut: 'github:react/addons',
+17 silly cache add      directUrl: 'https://raw.githubusercontent.com/react/addons/master/package.json' } }
+18 verbose addRemoteGit caching react/addons
+19 verbose addRemoteGit react/addons is a repository hosted by github
+20 silly tryGitProto attempting to clone git://github.com/react/addons.git
+21 silly tryClone cloning react/addons via git://github.com/react/addons.git
+22 verbose tryClone git-github-com-react-addons-git-578bb374 not in flight; caching
+23 verbose correctMkdir C:\Users\dell\AppData\Roaming\npm-cache\_git-remotes correctMkdir not in flight; initializing
+24 warn addRemoteGit Error: not found: git
+24 warn addRemoteGit     at F (D:\SoftwareInstallation\node\node_modules\npm\node_modules\which\which.js:63:19)
+24 warn addRemoteGit     at E (D:\SoftwareInstallation\node\node_modules\npm\node_modules\which\which.js:72:29)
+24 warn addRemoteGit     at D:\SoftwareInstallation\node\node_modules\npm\node_modules\which\which.js:81:16
+24 warn addRemoteGit     at D:\SoftwareInstallation\node\node_modules\npm\node_modules\which\node_modules\isexe\index.js:44:5
+24 warn addRemoteGit     at D:\SoftwareInstallation\node\node_modules\npm\node_modules\which\node_modules\isexe\windows.js:29:5
+24 warn addRemoteGit     at FSReqWrap.oncomplete (fs.js:82:15)
+24 warn addRemoteGit  react/addons resetting remote C:\Users\dell\AppData\Roaming\npm-cache\_git-remotes\git-github-com-react-addons-git-578bb374 because of error: { [Error: not found: git] code: 'ENOGIT' }
+25 info resetRemote resetting C:\Users\dell\AppData\Roaming\npm-cache\_git-remotes\git-github-com-react-addons-git-578bb374 for react/addons
+26 silly gentlyRm C:\Users\dell\AppData\Roaming\npm-cache\_git-remotes\git-github-com-react-addons-git-578bb374 is being purged
+27 verbose gentlyRm don't care about contents; nuking C:\Users\dell\AppData\Roaming\npm-cache\_git-remotes\git-github-com-react-addons-git-578bb374
+28 silly vacuum-fs purging C:\Users\dell\AppData\Roaming\npm-cache\_git-remotes\git-github-com-react-addons-git-578bb374
+29 silly vacuum-fs quitting because other entries in C:\Users\dell\AppData\Roaming\npm-cache\_git-remotes
+30 error git clone --template=C:\Users\dell\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git://github.com/react/addons.git C:\Users\dell\AppData\Roaming\npm-cache\_git-remotes\git-github-com-react-addons-git-578bb374: undefined
+30 error git clone --template=C:\Users\dell\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git://github.com/react/addons.git C:\Users\dell\AppData\Roaming\npm-cache\_git-remotes\git-github-com-react-addons-git-578bb374: undefined
+31 silly tryHTTPS attempting to clone git+https://github.com/react/addons.git
+32 silly tryClone cloning react/addons via git+https://github.com/react/addons.git
+33 verbose tryClone https-github-com-react-addons-git-dc89ee8f not in flight; caching
+34 verbose correctMkdir C:\Users\dell\AppData\Roaming\npm-cache\_git-remotes correctMkdir not in flight; initializing
+35 warn addRemoteGit Error: not found: git
+35 warn addRemoteGit     at F (D:\SoftwareInstallation\node\node_modules\npm\node_modules\which\which.js:63:19)
+35 warn addRemoteGit     at E (D:\SoftwareInstallation\node\node_modules\npm\node_modules\which\which.js:72:29)
+35 warn addRemoteGit     at D:\SoftwareInstallation\node\node_modules\npm\node_modules\which\which.js:81:16
+35 warn addRemoteGit     at D:\SoftwareInstallation\node\node_modules\npm\node_modules\which\node_modules\isexe\index.js:44:5
+35 warn addRemoteGit     at D:\SoftwareInstallation\node\node_modules\npm\node_modules\which\node_modules\isexe\windows.js:29:5
+35 warn addRemoteGit     at FSReqWrap.oncomplete (fs.js:82:15)
+35 warn addRemoteGit  react/addons resetting remote C:\Users\dell\AppData\Roaming\npm-cache\_git-remotes\https-github-com-react-addons-git-dc89ee8f because of error: { [Error: not found: git] code: 'ENOGIT' }
+36 info resetRemote resetting C:\Users\dell\AppData\Roaming\npm-cache\_git-remotes\https-github-com-react-addons-git-dc89ee8f for react/addons
+37 silly gentlyRm C:\Users\dell\AppData\Roaming\npm-cache\_git-remotes\https-github-com-react-addons-git-dc89ee8f is being purged
+38 verbose gentlyRm don't care about contents; nuking C:\Users\dell\AppData\Roaming\npm-cache\_git-remotes\https-github-com-react-addons-git-dc89ee8f
+39 silly vacuum-fs purging C:\Users\dell\AppData\Roaming\npm-cache\_git-remotes\https-github-com-react-addons-git-dc89ee8f
+40 silly vacuum-fs quitting because other entries in C:\Users\dell\AppData\Roaming\npm-cache\_git-remotes
+41 error git clone --template=C:\Users\dell\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror https://github.com/react/addons.git C:\Users\dell\AppData\Roaming\npm-cache\_git-remotes\https-github-com-react-addons-git-dc89ee8f: undefined
+41 error git clone --template=C:\Users\dell\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror https://github.com/react/addons.git C:\Users\dell\AppData\Roaming\npm-cache\_git-remotes\https-github-com-react-addons-git-dc89ee8f: undefined
+42 silly trySSH attempting to clone git@github.com:react/addons.git
+43 silly tryClone cloning react/addons via git@github.com:react/addons.git
+44 verbose tryClone git-github-com-react-addons-git-4b7660c5 not in flight; caching
+45 verbose correctMkdir C:\Users\dell\AppData\Roaming\npm-cache\_git-remotes correctMkdir not in flight; initializing
+46 warn addRemoteGit Error: not found: git
+46 warn addRemoteGit     at F (D:\SoftwareInstallation\node\node_modules\npm\node_modules\which\which.js:63:19)
+46 warn addRemoteGit     at E (D:\SoftwareInstallation\node\node_modules\npm\node_modules\which\which.js:72:29)
+46 warn addRemoteGit     at D:\SoftwareInstallation\node\node_modules\npm\node_modules\which\which.js:81:16
+46 warn addRemoteGit     at D:\SoftwareInstallation\node\node_modules\npm\node_modules\which\node_modules\isexe\index.js:44:5
+46 warn addRemoteGit     at D:\SoftwareInstallation\node\node_modules\npm\node_modules\which\node_modules\isexe\windows.js:29:5
+46 warn addRemoteGit     at FSReqWrap.oncomplete (fs.js:82:15)
+46 warn addRemoteGit  react/addons resetting remote C:\Users\dell\AppData\Roaming\npm-cache\_git-remotes\git-github-com-react-addons-git-4b7660c5 because of error: { [Error: not found: git] code: 'ENOGIT' }
+47 info resetRemote resetting C:\Users\dell\AppData\Roaming\npm-cache\_git-remotes\git-github-com-react-addons-git-4b7660c5 for react/addons
+48 silly gentlyRm C:\Users\dell\AppData\Roaming\npm-cache\_git-remotes\git-github-com-react-addons-git-4b7660c5 is being purged
+49 verbose gentlyRm don't care about contents; nuking C:\Users\dell\AppData\Roaming\npm-cache\_git-remotes\git-github-com-react-addons-git-4b7660c5
+50 silly vacuum-fs purging C:\Users\dell\AppData\Roaming\npm-cache\_git-remotes\git-github-com-react-addons-git-4b7660c5
+51 silly vacuum-fs quitting because other entries in C:\Users\dell\AppData\Roaming\npm-cache\_git-remotes
+52 error git clone --template=C:\Users\dell\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:react/addons.git C:\Users\dell\AppData\Roaming\npm-cache\_git-remotes\git-github-com-react-addons-git-4b7660c5: undefined
+52 error git clone --template=C:\Users\dell\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:react/addons.git C:\Users\dell\AppData\Roaming\npm-cache\_git-remotes\git-github-com-react-addons-git-4b7660c5: undefined
+53 verbose stack Error: not found: git
+53 verbose stack     at F (D:\SoftwareInstallation\node\node_modules\npm\node_modules\which\which.js:63:19)
+53 verbose stack     at E (D:\SoftwareInstallation\node\node_modules\npm\node_modules\which\which.js:72:29)
+53 verbose stack     at D:\SoftwareInstallation\node\node_modules\npm\node_modules\which\which.js:81:16
+53 verbose stack     at D:\SoftwareInstallation\node\node_modules\npm\node_modules\which\node_modules\isexe\index.js:44:5
+53 verbose stack     at D:\SoftwareInstallation\node\node_modules\npm\node_modules\which\node_modules\isexe\windows.js:29:5
+53 verbose stack     at FSReqWrap.oncomplete (fs.js:82:15)
+54 verbose cwd C:\Users\dell\Desktop\xs@slj\项目实例\个人项目实战\react
+55 error Windows_NT 6.1.7601
+56 error argv "D:\\SoftwareInstallation\\node\\node.exe" "D:\\SoftwareInstallation\\node\\node_modules\\npm\\bin\\npm-cli.js" "install" "react/addons"
+57 error node v4.4.4
+58 error npm  v2.15.1
+59 error code ENOGIT
+60 error not found: git
+61 error Failed using git.
+61 error This is most likely not a problem with npm itself.
+61 error Please check if you have git installed and in your PATH.
+62 verbose exit [ 1, true ]

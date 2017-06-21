@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+         <meta charset="UTF-8" />
+	    <title>Hello React!</title>
+	    <script src="https://cdn.bootcss.com/react/15.4.2/react.min.js"></script>
+	    <script src="https://cdn.bootcss.com/react/15.4.2/react-dom.min.js"></script>
+	    <script src="https://cdn.bootcss.com/babel-standalone/6.22.1/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="example"></div>
+    <script type="text/babel">
+      class NameForm extends React.Component {
+		  constructor(props) {
+		    super(props);//子类必须在constructor方法中调用super方法，否则新建实例时会报错。这是因为子类没有自己的this对象，而是继承父类的this对象，然后对其进行加工。
+		    this.state = {value: ''};
+
+		    this.handleChange = this.handleChange.bind(this);
+		    this.handleSubmit = this.handleSubmit.bind(this);
+		    //console.log(this); //<NameForm/>
+		  }
+
+		  handleChange(event) {
+		    this.setState({value: event.target.value});
+		  }
+
+		  handleSubmit(event) {
+		    alert('A name was submitted: ' + this.state.value);
+		    event.preventDefault();
+		  }
+
+		  render() {
+		    return (
+		      <form onSubmit={this.handleSubmit}>
+		        <label>
+		          Name:
+		          <input type="text" value={this.state.value} onChange={this.handleChange} />
+		        </label>
+		        <input type="submit" value="Submit" />
+		      </form>
+		    );
+		 }
+	  }
+
+	  ReactDOM.render(
+		 <NameForm />,
+		 document.getElementById('example')
+	  );
+    </script>
+  </body>
+</html>
+
+
+

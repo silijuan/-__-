@@ -1,0 +1,20 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",//解析post请求数据
+    "cookies": "^0.7.0",//读写cookie
+    "express": "^4.15.3",//简洁而灵活的node.js Web应用框架
+    "markdown": "^0.5.0",//markdown语法解析生成模块
+    "mongoose": "^4.10.2",//操作mongodb数据
+    "swig": "^1.4.2"//模板解析引擎
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
